@@ -38,10 +38,74 @@ def fib(n):
             b=c
             print(c)
 fib(5)'''
-s="anil kumar mothukuri"
-print(s.join("2"))
+'''word=input("enter a word:")
+output=""
+index=0
+while index<len(word):
+    if word[index] in word:
+        output=word[index]+output
+        index+=1
+print(output)'''
+'''word=input("enter a word:")
+output=""
+for i in range(len(word)):
+    if word[i] in word:
+        output=word[i]+output
+print(output)'''
+'''list=["anil","dileep","my","python"]
+output={}
+for item in list:
+    if item not in output:
+        output[item]=len(item)
+print(output)'''
+'''list=["anil","dileep","my","python","my"]
+index=0
+output={}
+while index<len(list):
+    if list[index] in output:
+        print("error")
+    elif list[index] not in output:
+        output[list[index]]=len(list[index])
+    index+=1
+print(output)'''
+'''def user():
+    count=0
+    for i in range(1,5):
+        num=int(input("enter a number:"))
+        count+=num
+    print(count)
+user()
 
-    
+def fun():
+    even=[]
+    odd=[]
+    for i in range(1,21):
+        if i%2==0:
+            even.append(i)
+        else:
+            odd.append(i)
+    print(even)
+    print(odd)
+    print(type(even))
+
+num=int(input("enter a val"))
+print(num)
+fun()
+class anil:
+    def fun(self):
+        even=[]
+        odd=[]
+        for i in lis:
+            if i%2==0:
+                even.append(i)
+            else:
+                odd.append(i)
+        print(even)
+        print(odd)
+lis=eval(input("enter a list:")) 
+a=anil()
+a.fun()'''
+
 
 
 
