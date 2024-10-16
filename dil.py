@@ -1216,8 +1216,94 @@ n=int(input("enter a number:"))
 for i in range(1,n+1):
     for j in range(i):
         print(i,end= " ")
-    print()'''
+    print()
+second_max=0
+list=[10,20,6.5,30]
+fm=max(list)
+for i in range(len(list)):
+    if list[i]<fm:
+        second_max=list[i]
+print(second_max)'''
+'''char='A'
+for row in range(5):
+    for row in range(5):
+        print(char,end=" ")
+        char=chr(ord(char)+1)
+    print()
+    char=chr(ord(char)-2)'''
+'''from time import sleep
+print("anil")
+import phonenumbers
+from phonenumbers import geocoders
+colors = ["red", "green", "blue"]
+for i,j in enumerate(colors):
+    print(i,j)
+def f1(msg):
+    print(msg)
+f1("anil kumar")
+f2=f1
+f2("this is dilepe")'''
+'''def f1():
+    print("this is my f1")
+    def f2(msg):
+        print("this is my f2")
+    def f3():
+        print("this is my f3")
+    f2("this is also f2")
+    f3()
+f1()
+def dil(msg):
+    print("hi,dil")
+    print(msg)
+dil("anil kuamr")
+dil("dileepe")
+def anil():
+    print("this is my outer fun")
+    def dil():
+        print("this is myh inner fun")
+        def dil1():
+            print("this is  my second inner")
+        dil1()
+    dil()
+anil()'''
 
+'''class anil:
+    def sum(self,a):
+        print("anil kuamr")
+        print(a)
+    def __init__(self):
+        print("thihs  is my init method")
+a=anil()
+a.sum("dileep")
+a.sum("anil")
+'''
+'''class anil:
+    def dil(self,n):
+        l=[]
+        l.append(n)
+        print(l)
+a=anil()
+#for k in range(4):
+a.dil(n=int(input("enter a number:")))'''
+'''class dil:
+    def anil(self):
+        print("this is class")
+d=dil()
+for i in range(3):
+    d.anil()
+
+'''
+'''print(hash(42))
+print(hash(42.1))
+print(hash(42.3))
+print(hash("42"))
+'''
+'''print(any([]))
+print(all([]))
+print(dir(__builtins__))'''
+#print(dir(abs))
+import keyword
+print(keyword.kwlist())
 print("------THE END-------")
     
 

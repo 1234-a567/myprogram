@@ -106,6 +106,108 @@ lis=eval(input("enter a list:"))
 a=anil()
 a.fun()'''
 
+'''n=int(input("enter  a num:"))
+for row in range(n):
+    for col in range(n):
+        if col==0 or row==n-1:
+            print("*",end=" ")
+    print()
+n=int(input("enter  a num:"))
+for row in range(n):
+    for col in range(n):
+        if row==0 or row==n-1 or col==0:
+            print("*",end=" ")
+    print()'''
+'''n=int(input("enter  a num:"))
+for row in range(n):
+    for col in range(n):
+        if row==0 or row==n//2 or col==0 or row==n-1:
+            print("*",end=" ")
+    print()
+n=int(input("enter  a num:"))
+for row in range(n):
+    for col in range(n):
+        if row==col or row+col==n-1:
+            print("*",end=" ")
+        else:
+            print(end=" ")
+    print()
+n=int(input("enter a num:"))
+for row in range(n):
+    for col in range(n):
+        if row==0 or row==n-1 or row+col==n-1:
+            print("*",end=" ")
+        else:
+            print(end="")
+    print()'''
+
+'''n=int(input("enter a number:"))
+for row in range(n,0,-1):
+    for col in range(row):
+        print(col+1,end=" ")
+    print()
+'''
+'''n=int(input("enter a number:"))
+for row in range(n):
+    for col in range(n,0,-1):
+        print(chr(65+col),end=" ")
+    print()
+n=int(input("enter a number:"))
+for row in range(n):
+    for col in range(n):
+        if row==(1,n-1)  or col==0 or col==n-1:
+            print("*",end=" ")
+        else:
+            print(end=" ")
+    print()'''
+def anil():
+    vo=[]
+    con=[]
+    vow=['a','e','i','o','u','A','E','I','O','U']   
+    for i in string:
+        if i in vow:
+            vo.append(i)
+        else:
+            con.append(i)
+    print(vo)
+    print(con)
+string=input("enter a string:")
+anil()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+print("-----THE END-------")
+
+
+            
+
 
 
 
